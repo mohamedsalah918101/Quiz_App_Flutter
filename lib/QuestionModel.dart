@@ -1,6 +1,11 @@
-class QuestionModel{
-  String? txt;
-  bool? answer;
+class Question {
+  final String question;
+  final List<String> options;
+  final int correctAnswerIndex;
 
-  QuestionModel({this.txt, this.answer});
+  const Question({
+    required this.correctAnswerIndex,
+    required this.question,
+    required this.options,
+  });
 }

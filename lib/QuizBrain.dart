@@ -92,5 +92,15 @@ const List<Question> questions = [
         'd) Mona Lisa',
       ]
   ),
+  Question(
+      question: '10. What is the capital of Palestine?',
+      correctAnswerIndex: 1,
+      options: [
+        'a) Madrid',
+        'b) jerusalem',
+        'c) Berlin',
+        'd) Cairo',
+      ]
+  ),
 
 ];
